@@ -1,0 +1,12 @@
+dataset,config,checkpoint,expected_acc,expected_mcc
+liver,checkpoint/configs/liver.json,checkpoint/liver/liver_best.pth,0.8639240506329114,0.7329952131699955
+brain,checkpoint/configs/brain.json,checkpoint/brain/brain_best.pth,0.8751592356687898,0.7586923358343591
+kidney,checkpoint/configs/kidney.json,checkpoint/kidney/kidney_best.pth,0.8913362701908958,0.7898319241830283
+HEK293,checkpoint/configs/HEK293.json,checkpoint/HEK293/HEK293_best.pth,0.7671732522796353,0.5344917274805956
+HeLa,checkpoint/configs/HeLa.json,checkpoint/HeLa/HeLa_best.pth,0.6945898778359512,0.3896658564053918
+CD8T,checkpoint/configs/CD8T.json,checkpoint/CD8T/CD8T_best.pth,0.7984621610683934,0.5984216397468093
+A549,checkpoint/configs/A549.json,checkpoint/A549/A549_best.pth,0.7941176470588235,0.5889370157921129
+MOLM13,checkpoint/configs/MOLM13.json,checkpoint/MOLM13/MOLM13_best.pth,0.8264002620373403,0.6530240788079991
+HEK293T,checkpoint/configs/HEK293T.json,checkpoint/HEK293T/HEK293T_best.pth,0.7424413357400722,0.4853780689902942
+HCT116,checkpoint/configs/HCT116.json,checkpoint/HCT116/HCT116_best.pth,0.652760736196319,0.304675641082519
+HepG2,checkpoint/configs/HepG2.json,checkpoint/HepG2/HepG2_best.pth,0.6539278131634819,0.3076474215862937

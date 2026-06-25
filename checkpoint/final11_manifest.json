@@ -1,0 +1,79 @@
+[
+  {
+    "dataset": "liver",
+    "config": "checkpoint/configs/liver.json",
+    "checkpoint": "checkpoint/liver/liver_best.pth",
+    "expected_acc": 0.8639240506329114,
+    "expected_mcc": 0.7329952131699955
+  },
+  {
+    "dataset": "brain",
+    "config": "checkpoint/configs/brain.json",
+    "checkpoint": "checkpoint/brain/brain_best.pth",
+    "expected_acc": 0.8751592356687898,
+    "expected_mcc": 0.7586923358343591
+  },
+  {
+    "dataset": "kidney",
+    "config": "checkpoint/configs/kidney.json",
+    "checkpoint": "checkpoint/kidney/kidney_best.pth",
+    "expected_acc": 0.8913362701908958,
+    "expected_mcc": 0.7898319241830283
+  },
+  {
+    "dataset": "HEK293",
+    "config": "checkpoint/configs/HEK293.json",
+    "checkpoint": "checkpoint/HEK293/HEK293_best.pth",
+    "expected_acc": 0.7671732522796353,
+    "expected_mcc": 0.5344917274805956
+  },
+  {
+    "dataset": "HeLa",
+    "config": "checkpoint/configs/HeLa.json",
+    "checkpoint": "checkpoint/HeLa/HeLa_best.pth",
+    "expected_acc": 0.6945898778359512,
+    "expected_mcc": 0.3896658564053918
+  },
+  {
+    "dataset": "CD8T",
+    "config": "checkpoint/configs/CD8T.json",
+    "checkpoint": "checkpoint/CD8T/CD8T_best.pth",
+    "expected_acc": 0.7984621610683934,
+    "expected_mcc": 0.5984216397468093
+  },
+  {
+    "dataset": "A549",
+    "config": "checkpoint/configs/A549.json",
+    "checkpoint": "checkpoint/A549/A549_best.pth",
+    "expected_acc": 0.7941176470588235,
+    "expected_mcc": 0.5889370157921129
+  },
+  {
+    "dataset": "MOLM13",
+    "config": "checkpoint/configs/MOLM13.json",
+    "checkpoint": "checkpoint/MOLM13/MOLM13_best.pth",
+    "expected_acc": 0.8264002620373403,
+    "expected_mcc": 0.6530240788079991
+  },
+  {
+    "dataset": "HEK293T",
+    "config": "checkpoint/configs/HEK293T.json",
+    "checkpoint": "checkpoint/HEK293T/HEK293T_best.pth",
+    "expected_acc": 0.7424413357400722,
+    "expected_mcc": 0.4853780689902942
+  },
+  {
+    "dataset": "HCT116",
+    "config": "checkpoint/configs/HCT116.json",
+    "checkpoint": "checkpoint/HCT116/HCT116_best.pth",
+    "expected_acc": 0.652760736196319,
+    "expected_mcc": 0.304675641082519
+  },
+  {
+    "dataset": "HepG2",
+    "config": "checkpoint/configs/HepG2.json",
+    "checkpoint": "checkpoint/HepG2/HepG2_best.pth",
+    "expected_acc": 0.6539278131634819,
+    "expected_mcc": 0.3076474215862937
+  }
+]
