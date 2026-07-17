@@ -30,18 +30,3 @@ To smoke-test one dataset:
 ```bash
 python code/test_final11_models.py --datasets liver --batch-size 8
 ```
-
-## GitHub Upload Note
-
-This package is about 5 GB. Use Git LFS or GitHub Release assets for binary files.
-
-Recommended LFS tracking:
-
-```bash
-git lfs install
-git lfs track "*.pth"
-git lfs track "*.npy"
-git lfs track "*.safetensors"
-git lfs track "*.pt"
-git add .gitattributes
-```
