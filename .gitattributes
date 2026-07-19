@@ -1,0 +1,4 @@
+checkpoint/**/*.pth filter=lfs diff=lfs merge=lfs -text
+checkpoint/pretrained_weights/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+data/structure_fusion/cache/**/*.npy filter=lfs diff=lfs merge=lfs -text
+data/structure_fusion/cache/**/*.pt filter=lfs diff=lfs merge=lfs -text
